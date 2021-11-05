@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Navigation />
       <Routes>
-        <Route path="/" exact={true} element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="movie_detail" element={<Detail />} />
       </Routes>
